@@ -1,1 +1,67 @@
+body {
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/125/952/original/quotation-mark-background-1.jpg?1715250429);
+  background-size: cover;
+  overflow: hidden;
+  color: #081f37;
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
 
+h1 {
+  text-align: center;
+  font-size: 50px;
+}
+
+form {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: rgba(46, 121, 186, 0.3);
+  margin-left: 35%;
+  margin-right: 35%;
+  border-radius: 6px;
+}
+
+input {
+  font-size: 15px;
+  padding: 5px 15px;
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  border: 6px;
+  color: #081f37;
+  background-color: #ececec;
+}
+
+footer {
+  text-align: center;
+  position: relative;
+  top: 200px;
+}
+
+a {
+  text-decoration-line: none;
+  color: #3b0944;
+  font-weight: 500;
+}
+
+a:hover {
+  color: #5f1854;
+  font-weight: 700;
+}
+
+.quote {
+  text-align: center;
+  font-size: 30px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.send:hover {
+  font-weight: 500;
+  border: solid 2px #081f37;
+}
