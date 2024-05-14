@@ -71,3 +71,18 @@ a:hover {
   font-weight: 600;
   border: solid 2px #081f37;
 }
+
+.example {
+  font-size: 13px;
+  margin-top: 4px;
+}
+
+.blink {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}

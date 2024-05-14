@@ -22,6 +22,9 @@ function generateQuote(event) {
 
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
+  let quoteElement = document.querySelector("#quote");
+  quoteElement.innerHTML = `<div class ="blink">Generating quote for you ⌛</div>`;
+
   console.log("Generating quote");
   console.log(`Prompt: ${prompt}`);
   console.log(`Context: ${context}`);
