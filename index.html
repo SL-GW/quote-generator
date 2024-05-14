@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,7 +17,7 @@
   </head>
   <body>
     <h1>AI Quote Generator</h1>
-    <form>
+    <form id="quote-generator-form">
       <input
         type="text"
         placeholder="Enter topic of quote"
@@ -25,7 +26,7 @@
       />
       <input class="send" type="submit" />
     </form>
-    <div class="quote" id="quote">Quote</div>
+    <div class="quote" id="quote"></div>
     <footer>
       This project was coded by
       <a href="https://github.com/dashboard" target="_blank">Sarah Gray</a> and
